@@ -479,6 +479,7 @@
 ## [2.7.0] - 2024-10-12
 
 ### Features
+
 - 添加昼夜转换过渡
 - 自定义了博客中的标题 `ID` ，当前命名格式为 `heading-${headingCount}` ，避免了出现同名标题无法跳转的问题
 - 为博客目录功能添加了 "聚焦" 功能，现在目录会根据您当前阅读的部分自动滚动
@@ -489,12 +490,14 @@
       opacity: 0;
       transform: translateY(50px);
       animation: fadeInUp 0.5s ease forwards;
+
       @for $i from 1 through 10 {
         &:nth-child(#{$i}) {
           animation-delay: #{$i * 0.1}s;
         }
       }
     }
+
     @keyframes fadeInUp {
       to {
         opacity: 1;
@@ -514,3 +517,14 @@
 ### Fix
 
 - 修复了在重名 `ID` 下无法跳转的问题
+
+## [2.7.1] - 2024-10-19
+
+### Refactored
+
+- 有关事件监听的部分更改
+
+### Fix
+
+- 修复了滚动问题
+- 修复了在站内跳转时目录中 `active` 保留的问题
