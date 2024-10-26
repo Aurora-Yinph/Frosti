@@ -117,10 +117,6 @@ const { title, image, includeSidebar = true } = Astro.props;
   }
 
   import mediumZoom from "medium-zoom/dist/pure";
-  mediumZoom(".main-card img:not(.link-card img)", {
-    margin: 24,
-    background: "#00000080",
-  });
 
   document.addEventListener("swup:page:view", () => {
     mediumZoom(".main-card img:not(.link-card img)", {
@@ -128,7 +124,9 @@ const { title, image, includeSidebar = true } = Astro.props;
       background: "#00000080",
     });
   });
+
   document.addEventListener("swup:page:view", () => {
+    addCopyButton();
     const astroPageLoadEvent = new Event("astro:page-load");
     document.dispatchEvent(astroPageLoadEvent);
   });
@@ -136,7 +134,5 @@ const { title, image, includeSidebar = true } = Astro.props;
   document.addEventListener("DOMContentLoaded", () => {
     const astroPageLoadEvent = new Event("swup:page:view");
     document.dispatchEvent(astroPageLoadEvent);
-
-    document.addEventListener("swup:page:view", addCopyButton);
   });
 </script>
