@@ -13,11 +13,7 @@ A simple, elegant, and fast static blog template! 🚀 Built with Astro
 
 ## 🖥️ Preview
 
-![view](./docs/Frosti_1.png)
-
-## ⏲️ Performance
-
-![speed](./docs/400-lighthouse.png)
+![view](https://pic.imgdb.cn/item/6725cbacd29ded1a8c6a9b4d.png)
 
 ## ✨ Features
 
