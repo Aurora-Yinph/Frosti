@@ -6,7 +6,7 @@
 A simple, elegant, and fast static blog template! 🚀 Built with Astro
 </pre>
 
-[**🖥️ Frosti Demo**](https://frosti.saroprock.com)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 Chinese README**](https://github.com/EveSunMaple/Frosti/blob/main/docs/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️My Blog**](https://www.saroprock.com)
+[**🖥️ Frosti Demo**](https://frosti.saroprock.com/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 Chinese README**](https://github.com/Aurora-Yinph/Frosti/blob/main/docs/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️My Blog**](https://yinph-blog.netlify.app/)
 
 > [!TIP]
 > It is recommended to preview this theme first
