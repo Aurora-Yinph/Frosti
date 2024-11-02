@@ -6,14 +6,14 @@
 一个简洁、优雅、快速的静态博客模板！🚀 使用 Astro 开发
 </pre>
 
-[**🖥️ Frosti Demo**](https://frosti.saroprock.com)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 中文 README**](https://github.com/EveSunMaple/Frosti/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️My Blog**](https://www.saroprock.com)
+[**🖥️ Frosti Demo**](https://frosti.saroprock.com)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 中文 README**](https://github.com/Aurora-Yinph/Frosti/blob/main/docs/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️My Blog**](https://yinph.netlify.app/)
 
 > [!TIP]
 > 推荐先查看此主题的预览
 
 ## 🖥️ 预览
 
-![view](./Frosti_1.png)
+![view](https://pic.imgdb.cn/item/6725cbacd29ded1a8c6a9b4d.png)
 
 ## ⏲️ 性能
 
