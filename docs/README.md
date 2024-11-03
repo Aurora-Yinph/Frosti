@@ -6,14 +6,18 @@
 A simple, elegant, and fast static blog template! 🚀 Built with Astro
 </pre>
 
-[**🖥️ Frosti Demo**](https://frosti.saroprock.com/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 Chinese README**](https://github.com/Aurora-Yinph/Frosti/blob/main/docs/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️My Blog**](https://yinph-blog.netlify.app/)
+[**🖥️ Frosti Demo**](https://frosti.saroprock.com)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏 Chinese README**](https://github.com/EveSunMaple/Frosti/blob/main/docs/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**❤️My Blog**](https://www.saroprock.com)
 
 > [!TIP]
 > It is recommended to preview this theme first
 
 ## 🖥️ Preview
 
-![view](https://pic.imgdb.cn/item/6725cbacd29ded1a8c6a9b4d.png)
+![view](./docs/Frosti_1.png)
+
+## ⏲️ Performance
+
+![speed](./docs/400-lighthouse.png)
 
 ## ✨ Features
 
