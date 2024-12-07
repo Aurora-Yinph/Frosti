@@ -2,7 +2,7 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Site title and description
-export const SITE_LANG = "en";
+export const SITE_LANG = "zh";
 export const SITE_TAB = "Yinph";
 export const SITE_TITLE = "Yinph";
 export const SITE_DESCRIPTION = "Yinph's personal blog";
@@ -28,34 +28,34 @@ export const CODE_THEME = {
 
 // Menu items for navigation
 export const menuItems = [
-  { id: "home", text: "首页", href: "/", svg: "home", target: "_self" }, // Home page
-  { id: "about", text: "关于", href: "/about", svg: "about", target: "_self" }, // About page
+  { id: "home", text: "首页", href: "/", svg: "ri:home-9-line", target: "_self" }, // Home page
+  { id: "about", text: "关于", href: "/about", svg: "material-symbols:info-outline-rounded", target: "_self" }, // About page
   {
     id: "blog",
     text: "博客",
     href: "/blog",
-    svg: "blog",
+    svg: "material-symbols:book-2-outline-rounded",
     target: "_self",
     subItems: [
       {
         id: "all",
         text: "所有博客",
         href: "/blog",
-        svg: "post",
+        svg: "material-symbols:ink-pen-outline-rounded",
         target: "_self",
       }, // All blog
       {
         id: "tech",
         text: "技术博客",
         href: "/blog/categories/技术Tech",
-        svg: "cube",
+        svg: "material-symbols:deployed-code-outline",
         target: "_self",
       }, // Technology category
       {
         id: "life",
         text: "生活博客",
         href: "/blog/categories/生活Life",
-        svg: "heart",
+        svg: "material-symbols:earthquake-rounded",
         target: "_self",
       }, // Life category
     ],
@@ -64,49 +64,42 @@ export const menuItems = [
     id: "project",
     text: "项目",
     href: "/project",
-    svg: "project",
+    svg: "material-symbols:code-blocks-outline",
     target: "_self",
   }, // Projects page
   {
     id: "friend",
-    text: "好友",
+    text: "友链",
     href: "/friend",
-    svg: "friend",
+    svg: "material-symbols:supervisor-account-outline-rounded",
     target: "_self",
   }, // Friends page
-  {
-    id: "thanks",
-    text: "感谢",
-    href: "/thanks",
-    svg: "thanks",
-    target: "_self",
-  },
 ];
 
 // Social media and contact icons
 export const socialIcons = [
   {
+    href: "https://github.com/EveSunMaple",
+    ariaLabel: "Github",
+    title: "Github",
+    svg: "ri:github-line",
+  },
+  {
     href: "mailto:3795199897@qq.com",
     ariaLabel: "Mail",
     title: "Mail",
-    svg: "contact",
+    svg: "material-symbols:attach-email-outline-rounded",
   },
   {
-    href: "https://github.com/Aurora-Yinph",
-    ariaLabel: "Github",
-    title: "Github",
-    svg: "github",
-  },
-  {
-    href: "https://space.bilibili.com/1670180008",
+    href: "https://space.bilibili.com/438392347",
     ariaLabel: "BiliBili",
     title: "BiliBili",
-    svg: "bilibili",
+    svg: "ri:bilibili-line",
   },
   {
     href: "https://www.zhihu.com/people/yinph",
     ariaLabel: "知乎",
     title: "知乎",
-    svg: "zhihu",
+    svg: "ri:zhihu-fill",
   },
 ];
