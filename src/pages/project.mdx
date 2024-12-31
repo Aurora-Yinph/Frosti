@@ -1,0 +1,37 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import Collapse from "../components/mdx/Collapse.astro";
+import Diff from "../components/mdx/Diff.astro";
+import Error from "../components/mdx/Error.astro";
+import Info from "../components/mdx/Info.astro";
+import Kbd from "../components/mdx/Kbd.astro";
+import Success from "../components/mdx/Success.astro";
+import Warning from "../components/mdx/Warning.astro";
+import TimeLine from "../components/mdx/TimeLine.astro";
+import LinkCard from "../components/mdx/LinkCard.astro";
+
+<BaseLayout title="项目">
+  <BaseCard title="Project">
+# 🗂️ Project
+
+---
+
+  </BaseCard>
+  <ProjectCard
+      title="Frosti"
+      image="https://pic.imgdb.cn/item/6725cef3d29ded1a8c6dbd05.png"
+      desc="如你所见——这正是这个网站的主题。美观，且实用。"
+      url="https://github.com/Aurora-Yinph/Frosti"
+      badge="Github"
+      target="_self"
+  />
+  <ProjectCard
+      title="fuwari"
+      image="https://pic.imgdb.cn/item/6725cb1dd29ded1a8c6a082d.png"
+      desc="这是我的另一个博客主题。功能较少，但更美观。"
+      url="https://github.com/Aurora-Yinph/fuwari"
+      badge="Github"
+      target="_self"
+  />
+</BaseLayout>

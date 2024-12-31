@@ -1,0 +1,43 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import Collapse from "../components/mdx/Collapse.astro";
+import Diff from "../components/mdx/Diff.astro";
+import Error from "../components/mdx/Error.astro";
+import Info from "../components/mdx/Info.astro";
+import Kbd from "../components/mdx/Kbd.astro";
+import Success from "../components/mdx/Success.astro";
+import Warning from "../components/mdx/Warning.astro";
+import TimeLine from "../components/mdx/TimeLine.astro";
+import LinkCard from "../components/mdx/LinkCard.astro";
+
+<BaseLayout title="好友">
+  <BaseCard title="Friend">
+# 😄 Friend
+
+---
+    <div class="grid grid-cols-2 gap-4">
+      <LinkCard
+        title="EveSunMaple"
+        desc="一位“普通”的高中学生"
+        url="https://www.saroprock.com/"
+        img="https://pic.imgdb.cn/item/66cec70fd9c307b7e94f335c.jpg"
+      />
+      <LinkCard
+        title="Yaoqx"
+        desc="一名喜欢躺平的初中生"
+        url="https://yaoqx.netlify.app/"
+        img="https://pic.imgdb.cn/item/66cec6dfd9c307b7e94f0dfe.jpg"
+      />
+      <LinkCard
+        title="马醇烽"
+        desc="好友皆同学，靠谱又带有些损( ﹁ ﹁ ) ~"
+        img="https://livefile.xesimg.com/programme/python_assets/88477a664a1615a17249f2912e63981f.jpg"
+      />
+      <LinkCard
+        title="楮"
+        desc="一位热衷于二次元文化的异性挚友"
+        img="https://pic.imgdb.cn/item/67545813d0e0a243d4dfcc58.jpg"
+      />
+    </div>
+  </BaseCard>
+</BaseLayout>
