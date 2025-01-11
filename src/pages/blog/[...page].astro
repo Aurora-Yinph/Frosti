@@ -9,13 +9,11 @@ import Search from "astro-pagefind/components/Search";
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
   const posts = await getCollection("blog");
-  const topPosts = posts.filter((post) => post.data.badge === "置顶");
-  const otherPosts = posts.filter((post) => post.data.badge !== "置顶");
+  const topPosts = posts.filter((post) => post.data.badge === "Pin");
+  const otherPosts = posts.filter((post) => post.data.badge !== "Pin");
 
   topPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-  otherPosts.sort(
-    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-  );
+  otherPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
   const sortedPosts = [...topPosts, ...otherPosts];
 
@@ -66,13 +64,9 @@ const totalPages = Math.ceil(page.total / page.size);
 const pageLinks = generatePageLinks(totalPages);
 ---
 
-<BaseLayout title="博客">
+<BaseLayout title="Blog">
   <BaseCard title="search">
-    <Search
-      id="search"
-      className="pagefind-ui"
-      uiOptions={{ showImages: false }}
-    />
+    <Search id="search" className="pagefind-ui" uiOptions={{ showImages: false }} />
   </BaseCard>
   {
     page.data.map((post: Post) => (
@@ -91,10 +85,5 @@ const pageLinks = generatePageLinks(totalPages);
       />
     ))
   }
-  <Pagination
-    page={page}
-    totalPages={totalPages}
-    pageLinks={pageLinks}
-    baseUrl={`/blog`}
-  />
+  <Pagination page={page} totalPages={totalPages} pageLinks={pageLinks} baseUrl={`/blog`} />
 </BaseLayout>
