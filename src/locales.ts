@@ -11,7 +11,7 @@ export function initI18n() {
     .use(HttpApi)
     .use(LanguageDetector)
     .init({
-      fallbackLng: "en",
+      fallbackLng: "zh",
       supportedLngs: ["zh", "en"],
       detection: {
         order: ["querystring", "cookie", "localStorage", "navigator"],
