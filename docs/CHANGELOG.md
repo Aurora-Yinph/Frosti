@@ -424,7 +424,7 @@
         }
         ```
 
-    3. 在 `astro-i18next.config.mjs` 中添加您的语言代码，比如：
+    3. 在 `locales.ts` 中添加您的语言代码，比如：
 
         ```mjs
         export default {
