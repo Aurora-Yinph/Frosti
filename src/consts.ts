@@ -60,13 +60,13 @@ export const menuItems = [
       }, // Life category
     ],
   }, // Blog page with sub-items
-  {
-    id: "project",
-    text: "项目",
-    href: "/project",
-    svg: "material-symbols:code-blocks-outline",
-    target: "_self",
-  }, // Projects page
+  // {
+  //   id: "project",
+  //   text: "项目",
+  //   href: "/project",
+  //   svg: "material-symbols:code-blocks-outline",
+  //   target: "_self",
+  // }, // Projects page
   {
     id: "friend",
     text: "友链",
