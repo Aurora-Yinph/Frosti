@@ -3,14 +3,14 @@
 
 // Site title and description
 export const SITE_LANG = "zh";
-export const SITE_TAB = "Yinph";
-export const SITE_TITLE = "Yinph";
-export const SITE_DESCRIPTION = "Yinph's personal blog";
+export const SITE_TAB = "零界ZeroEdge";
+export const SITE_TITLE = "零界ZeroEdge";
+export const SITE_DESCRIPTION = "ZeroEdge's personal blog";
 export const DATE_FORMAT = "ddd MMM DD YYYY";
 
 // User profile information
-export const USER_NAME = "Yinph";
-export const USER_SITE = "https://yinph.netlify.app/"; // At the same time, this is also the site retrieved by the i18n configuration.
+export const USER_NAME = "零界ZeroEdge";
+export const USER_SITE = "https://zero-edge.netlify.app/"; // At the same time, this is also the site retrieved by the i18n configuration.
 export const USER_AVATAR = "/profile.webp";
 
 // Server and transition settings
